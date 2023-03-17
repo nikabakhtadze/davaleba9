@@ -1,0 +1,71 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#FFFFFF;
+}
+@font-face{
+    font-family:"inter";
+    src: url("/font/Inter-VariableFont_slnt\,wght.ttf");
+}
+.container1{
+    position:absolute;
+    left:45px;
+    top:38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color:#000000;
+}
+.container2{
+    position:relative;
+    left:496px;
+    top:180px;
+    height:590px;
+    width:365px;
+    background-image: linear-gradient(#F3F3F3,#FDFDFD);
+    border-radius:10px;
+}
+.image>img{
+    position:absolute;
+    left:50px;
+    top:39px;
+    border-radius:10px;
+}
+.container3{
+    position:absolute;
+    left:51px;
+    top:315px;
+    width:280px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align:left;
+}
+.date{
+    position:absolute;
+    left:51px;
+    top:390px;
+    color:#D2D2D2;
+}
+hr{
+    position:absolute;
+    width:266px;
+    top:403px;
+    left:51px;
+    background-color:#F1F1F1;
+}
+.container4{
+    position:absolute;
+    left:51px;
+    top:422px;
+    width:266px;
+    text-align:left;
+    color:#353535;
+}
+.container5{
+    position:absolute;
+    left:256px;
+    top:562px;
+    color:#5076FF;
+}
